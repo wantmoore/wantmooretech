@@ -4,7 +4,7 @@
   "builds": [
     {
       "chipFamily": "ESP8266",
-      "parts": [{ "path": "firmware/WLED_0.14.0-b6_ESP8266.bin", "offset": 0 }]
+      "parts": [{ "path": "firmware/WLED_0.14.0-b6_miniDEEZ.bin", "offset": 0 }]
     }
   ]
 }
