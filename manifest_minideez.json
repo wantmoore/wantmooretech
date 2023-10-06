@@ -1,0 +1,10 @@
+{
+  "name": "WLED for miniDEEZ",
+  "version": "0.14b6",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [{ "path": "firmware/WLED_0.14.0-b6_ESP8266.bin", "offset": 0 }]
+    }
+  ]
+}
