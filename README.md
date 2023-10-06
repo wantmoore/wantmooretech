@@ -1,2 +1,2 @@
-# wantmooretech
+# Wantmoore.tech
 ESP Web Installer
