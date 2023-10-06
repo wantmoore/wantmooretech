@@ -7,3 +7,8 @@ esptool --chip esp32 merge_bin -o WLED_0.14.0-b6_ESP32-bootloader.bin --flash_mo
 
 # Flash the bin
 esptool.py write_flash 0x0 WLED_0.14.0-b6_ESP3-bootloader.bin
+
+# LEDeez firmware overrides (need tested)
+    -D LEDPIN=16
+    -D PIXEL_COUNTS="50,50"
+    -D DATA_PINS="16,4"
