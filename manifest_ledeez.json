@@ -1,0 +1,10 @@
+{
+  "name": "WLED for LEDeez",
+  "version": "0.14b6",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [{ "path": "firmware/WLED_0.14.0-b6_ESP32-bootloader.bin.bin", "offset": 0 }]
+    }
+  ]
+}
