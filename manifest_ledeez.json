@@ -4,7 +4,7 @@
   "builds": [
     {
       "chipFamily": "ESP32",
-      "parts": [{ "path": "firmware/firmware/WLED_0.14.0-b6_LEDeez_w_bootloader.bin", "offset": 0 }]
+      "parts": [{ "path": "firmware/WLED_0.14.0-b6_LEDeez_w_bootloader.bin", "offset": 0 }]
     }
   ]
 }
