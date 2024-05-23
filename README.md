@@ -3,7 +3,9 @@ ESP Web Installer
 
 
 # Merge the WLED bootloader and WLED bin
-esptool --chip esp32 merge_bin -o WLED_0.14.0-b6_ESP32-bootloader.bin --flash_mode dio --flash_freq 40m --flash_size 4MB 0x0 wled_esp32_bootloader_v4.bin 0x10000 WLED_0.14.0-b6_ESP32.bin
+esptool --chip esp32 merge_bin -o ledeez_weact32_14_4-factory.bin --flash_mode dio --flash_freq 40m --flash_size 4MB 0x0 esp32_bootloader_v4.bin 0x10000 weact_esp32_core_v3.bin
+esptool.py v4.4
+Wrote 0x149be0 bytes to file New folder\ledeez_weact32_14_4-factory.bin, ready to flash to offset 0x0
 
 # Flash the bin
 esptool.py write_flash 0x0 WLED_0.14.0-b6_ESP3-bootloader.bin
